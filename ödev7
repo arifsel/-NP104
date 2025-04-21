@@ -1,0 +1,3 @@
+txt=str(input("sözcük Giriniz:"))
+for harf in txt:
+  print(harf+"!")
