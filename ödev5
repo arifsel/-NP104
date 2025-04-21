@@ -1,0 +1,5 @@
+txt=str(input("Kelime Giriniz:"))
+z=int(input("sayı giriniz: "))
+txt1=txt[:z]
+txt2=txt[z:]
+print(txt1+"-"+txt2)
