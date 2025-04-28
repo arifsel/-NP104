@@ -1,0 +1,13 @@
+#7. Kullanıcının girdiği listedeki elemanları index no ile veren bir program yazın
+Örnek:
+Giriş
+my_list = [1 ,3, 7, “a”]
+Çıktı
+my_list2 = [my_list[1] ,my_list[3], my_list[7], my_list[“a”]]
+-----------------------------------------------------
+my_list=[1,3,7,"a",1]
+new_list=[]
+
+for i in range(len(my_list)):
+  new_list.append("item ["+str(i)+"]")
+print(new_list)
