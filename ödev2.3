@@ -1,0 +1,11 @@
+#3. Aşağıda verilen Tuple’ı my_tuple = ( 0 , 1 , 2 , "hi" , 4 , 5 ) aşağıdaki Tuple’a çevirin Tuple değişmezlik özelliğini dikkate alın:
+my_tuple = ( 0 , 1 , 2 , 3 , 4 , 5 )
+-----------------------------------------------
+my_tuple = [ 0 , 1 , 2 , "hi" , 4 , 5 ]
+my_tuple.insert(3,"3")
+b = ["hi"]
+for item in b:
+    if item in my_tuple:
+        my_tuple.remove(item)
+
+print(my_tuple)
