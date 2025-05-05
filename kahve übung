@@ -1,0 +1,20 @@
+coffe=(
+  "cappucino": 3.0,
+  "espresso": 2.5,
+  "macchiato": 2.50,
+  "americano": 3.0,
+  "mocha": 3.50,
+  "latte": 2.50,
+  "flat white": 2.50
+  )
+while True:
+  typ=input("hangi kahve:")
+  zahl=int(input("kaç tane:"))
+  boy=int(input("standart: 1, büyük: 2, XL: 3 "))
+  toplam=toplam+(float(typ+boy)+zahl
+  yeni=int(input("bitti: 0, devam:1"))
+  if yeni==0:
+    break
+  if yeni==1:
+    continue
+print(toplam)
