@@ -1,0 +1,16 @@
+while True:
+  eier=int(input("kaç yumurta topladı Giriniz:")) 
+if eier<6:
+  print("ungültiger wert")
+  continue
+  else:
+  break
+oniki=eier//12
+kalan=eier%12
+print(kalan)
+altili=kalan//6
+kalan=kalan%6
+
+print("onikilikutu=" + str(oniki))
+print("Altılı kutu=" + str(altili))
+print("Yemek için=" + str(kalan))
